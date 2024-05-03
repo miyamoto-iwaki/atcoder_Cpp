@@ -11,4 +11,6 @@ using namespace std;
 #include <algorithm>
 using namespace std;
 ```
-### 絶対値
+***
+## 絶対値 abs
+
