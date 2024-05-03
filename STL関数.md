@@ -142,5 +142,19 @@ cout << endl;
 | stoll()    | 文字列から`int64_t`に変換し、`int64_t`を返す   |
 | stod(a)    | 文字列から`double`に変換し、`double`を返す   |
 
+## 要素の個数 count
+配列や`vector`のある区間の要素の中で、x がいくつ含まれるかを返す関数。
+`count(v.begin(), v.end(), x)` によって配列 v の中で x となるようなものの個数を返す。
+
+## 順列全探索 next_premutation
+以下、vectorの配列vに対する「順列全探索」の雛形。なお、事前に`sort`が必要なことに注意。
+```cpp
+sort(v.begin(), v.end());
+do {
+  // 順列に対する処理
+} while (next_permutation(v.begin(), v.end()));
+```
+
+
 
 
