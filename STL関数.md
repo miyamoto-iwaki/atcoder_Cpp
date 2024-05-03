@@ -13,4 +13,6 @@ using namespace std;
 ```
 ***
 ## 絶対値 abs
-
+```cpp
+abs(x) = (x の絶対値)
+```
