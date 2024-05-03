@@ -78,3 +78,4 @@ cout << *min_element(c + 1, c + N + 1) << endl;
 > [!CAUTION]
 > **この関数は gcc で利用可能だが、Visual Studio 2019 などでは使えない。**
 
+## 乱数 rand
