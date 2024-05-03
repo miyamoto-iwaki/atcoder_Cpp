@@ -67,4 +67,5 @@ cout << minx << endl;
 // 例 2: {c[1], c[2], ..., c[N]} の最小値を出力する方法 2 つ目
 cout << *min_element(c + 1, c + N + 1) << endl;
 ```
-
+## 値の交換 swap
+`swap(a, b)` で、変数 a と b の値を入れ替えることができる。
