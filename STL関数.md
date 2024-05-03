@@ -71,4 +71,6 @@ cout << *min_element(c + 1, c + N + 1) << endl;
 `swap(a, b)` で、変数 a と b の値を入れ替えることができる。
 
 ## 最大公約数 __gcd
-2 つの整数 a, b の最大公約数を返す関数。<span style="color: red">この関数は gcc で利用可能だが、Visual Studio 2019 などでは使えない。</span>
+2 つの整数 a, b の最大公約数を返す関数。
+> [!CAUTION]
+> この関数は gcc で利用可能だが、Visual Studio 2019 などでは使えない。
