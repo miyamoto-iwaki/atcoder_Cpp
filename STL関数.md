@@ -36,9 +36,8 @@ cout << tan(x / 180.0 * pi) << endl;
 
 | プログラム | 説明 | 
 |:-----------|------------:|
-| S[i]       |         | 
-| column     | column      | 
-| will       | will        |
-| be         | be          |
-| left       | right       |
-| aligned    | aligned     |
+| S[i]       | Sのi文字目。`char`型であることに注意。   | 
+| S += T (or c)     | `string`や`char`を連結可能      | 
+| S.size()      | Sの長さを整数型で返す        |
+| S.substr(i)         | Sのi文字目から最後の文字までの部分文字列を返す          |
+| S.substr(i,j)       | Sのi文字目からi+j-1文字目までの部分文字列を返す       |
