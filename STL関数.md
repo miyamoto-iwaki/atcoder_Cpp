@@ -13,4 +13,19 @@ using namespace std;
 ```
 ***
 ## 絶対値 abs
-`abs(x) = (x の絶対値)`
+`abs(x) = (x の絶対値)`となる。`cmath`をインクルードすることにより使える。
+
+## 三角関数 sin/cos/tan
+`x`は度数法ではなく弧度法を用いることに注意。`cmath`をインクルードすることにより使える。
+```cpp
+//x度の時の値を出力
+double pi = 3.141592653589793238;
+double x;
+cin >> x;
+
+cout << fixed << setprecision(10); // 小数点以下10桁まで出力される
+
+cout << sin(x / 180.0 * pi) << endl;
+cout << cos(x / 180.0 * pi) << endl;
+cout << tan(x / 180.0 * pi) << endl;
+```
