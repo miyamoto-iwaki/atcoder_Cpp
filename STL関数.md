@@ -72,5 +72,9 @@ cout << *min_element(c + 1, c + N + 1) << endl;
 
 ## 最大公約数 __gcd
 2 つの整数 a, b の最大公約数を返す関数。
+`__gcd(a,b) = (a と b の最大公約数)`となる。計算量は$O(log a)$のため高速。`algorithm` をインクルードすることで使える。
+
+なお、a, bの最小公倍数は`__gcd(a,b) * b`によって求まる
 > [!CAUTION]
 > **この関数は gcc で利用可能だが、Visual Studio 2019 などでは使えない。**
+
