@@ -54,5 +54,6 @@ cout << tan(x / 180.0 * pi) << endl;
 | max({a1, a2, ..., an})     |{a1, a2, ..., an} の中で最大のものを返す  |
 | *min_element(c + l, c + r)       | {c[l], c[l+1], ..., c[r-1]} の中で最小のものを返す |
 | *max_element(c + l, c + r)    | {c[l], c[l+1], ..., c[r-1]} の中で最大のものを返す|
+
 なお、`min_element` 関数と `max_element` 関数はイテレーターを返すため、最初に * を付ける必要がある。`algorithm` をインクルードすることで使える。
 
