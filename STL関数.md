@@ -56,4 +56,15 @@ cout << tan(x / 180.0 * pi) << endl;
 | *max_element(c + l, c + r)    | {c[l], c[l+1], ..., c[r-1]} の中で最大のものを返す|
 
 なお、`min_element` 関数と `max_element` 関数はイテレーターを返すため、最初に * を付ける必要がある。`algorithm` をインクルードすることで使える。
+```cpp
+// 例2： {c[1], c[2], ..., c[N]} の最小値を出力する方法 1 つ目
+int N, c[100009], minx = 2147483647;
+cin >> N;
+for (int i = 1; i <= N; i++) cin >> c[i];
+for (int i = 1; i <= N; i++) minx = min(minx, c[i]);
+cout << minx << endl;
+
+// 例 2: {c[1], c[2], ..., c[N]} の最小値を出力する方法 2 つ目
+cout << *min_element(c + 1, c + N + 1) << endl;
+```
 
