@@ -22,7 +22,9 @@ double pi = 3.141592653589793238;
 double x;
 cin >> x;
 
-cout << fixed << setprecision(10); // 小数点以下10桁まで出力される
+// 小数点以下10桁まで出力される
+cout << fixed << setprecision(10);
+
 //x度の時の値を出力
 cout << sin(x / 180.0 * pi) << endl;
 cout << cos(x / 180.0 * pi) << endl;
