@@ -133,7 +133,14 @@ cout << endl;
 
 計算量は$` O(1) `$と高速。
 
-
+## 型変換 to_string、stoi、stoll、stod
+以下、文字列は`char`ではなく`string`である。
+| プログラム | 説明 | 
+|:-----------|:------------|
+| to_string(x)      | 数値型から文字列に変換し、文字列を返す  | 
+| stoi(x)    | 文字列から`int`に変換し、`int`を返す    |
+| stoll()    | 文字列から`int64_t`に変換し、`int64_t`を返す   |
+| stod(a)    | 文字列から`double`に変換し、`double`を返す   |
 
 
 
