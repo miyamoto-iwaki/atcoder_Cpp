@@ -77,7 +77,7 @@ for (auto p : m) {
 待ち行列のようなデータ構造を管理できる型。`queue<型> q;`によって宣言可能。
 以下、q を`queue`の変数とする。
 
-![queue](http://i.imgur.com/Jjwsc.jpg )
+![queue](image/queue.png)
 
 | プログラム | 説明 |  計算量 |
 |:-----------|:------------|:------------|
