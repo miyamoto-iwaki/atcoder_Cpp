@@ -155,6 +155,7 @@ do {
 } while (next_permutation(v.begin(), v.end()));
 ```
 
+# 「値」以上[を超える]の最小の値 lower_bound[upper_bound]
 
 
 
