@@ -30,3 +30,15 @@ cout << sin(x / 180.0 * pi) << endl;
 cout << cos(x / 180.0 * pi) << endl;
 cout << tan(x / 180.0 * pi) << endl;
 ```
+
+## 文字列 string
+以下、S, T を `string` 型の変数、c を `char` 型の変数とする。
+
+| プログラム | 説明 | 
+|:-----------|------------:|
+| S[i]       |         | 
+| column     | column      | 
+| will       | will        |
+| be         | be          |
+| left       | right       |
+| aligned    | aligned     |
