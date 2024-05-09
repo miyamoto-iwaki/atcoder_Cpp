@@ -1,5 +1,4 @@
-# 標準ライブラリを使う方法
-## gccの場合
+# テンプレート
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
