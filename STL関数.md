@@ -2,7 +2,7 @@
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
-int min = 2147483647;
+#define min_num 2147483647
 
 int main(){
   
