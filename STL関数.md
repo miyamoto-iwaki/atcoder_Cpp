@@ -300,7 +300,7 @@ do {
 } while (next_permutation(v.begin(), v.end()));
 ```
 
-## 「値」以上[を超える]の最小の値 lower_bound[upper_bound]
+## 「値」以上[を超える]の最小の値 lower_bound、upper_bound
 以下、v は `vector`の配列
 | プログラム | 説明 | 
 |:-----------|:------------|
