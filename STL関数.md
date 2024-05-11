@@ -4,7 +4,7 @@
 using namespace std;
 typedef long long ll;
 const int inf = INT_MAX;
-const ll infl = 1LL << 60;
+const ll infl = 1LL << 62;
 
 int main(){
   
