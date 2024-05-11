@@ -2,7 +2,11 @@
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
-typedef long long ll; const int inf = INT_MAX / 2; const ll infl = 1LL << 60;
+typedef long long ll;
+const int inf = INT_MAX / 2;
+const ll infl = 1LL << 60;
+template<class T>bool chmax(T& a, const T& b) { if (a < b) { a = b; return 1; } return 0; }
+template<class T>bool chmin(T& a, const T& b) { if (b < a) { a = b; return 1; } return 0; }
 
 int main(){
   
