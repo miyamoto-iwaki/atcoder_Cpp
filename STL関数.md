@@ -2,7 +2,7 @@
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
-#define min_num 2147483647
+typedef long long ll; const int inf = INT_MAX / 2; const ll infl = 1LL << 60;
 
 int main(){
   
