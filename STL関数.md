@@ -3,8 +3,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+typedef unsigned long long ull;
 const int inf = INT_MAX;
-const ll infl = 1LL << 62;
+const ll infl = LLONG_MAX;
+const ull inful = ULLONG_MAX;
 
 int main(){
   
