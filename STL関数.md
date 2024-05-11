@@ -2,11 +2,8 @@
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
-typedef long long ll;
-typedef unsigned long long ull;
-const int inf = INT_MAX;
-const ll infl = LLONG_MAX;
-const ull inful = ULLONG_MAX;
+typedef long long ll; typedef unsigned long long ull;
+const int inf = INT_MAX; const ll infl = LLONG_MAX; const ull inful = ULLONG_MAX;
 void yes(){ cout << "Yes" << endl; }
 void no(){ cout << "No" << endl; }
 
